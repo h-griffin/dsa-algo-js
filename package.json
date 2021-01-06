@@ -1,0 +1,20 @@
+{
+  "name": "dsa-algo-js",
+  "version": "1.0.0",
+  "description": "- [The Coding Interview Bootcamp: Algorithms + Data Structures by Stephen Grinder](https://www.udemy.com/course/coding-interview-bootcamp-algorithms-and-data-structure/) - [Stephen Grinder AlgoCasts Github link](https://github.com/StephenGrider/AlgoCasts)",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/h-griffin/dsa-algo-js.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/h-griffin/dsa-algo-js/issues"
+  },
+  "homepage": "https://github.com/h-griffin/dsa-algo-js#readme"
+}

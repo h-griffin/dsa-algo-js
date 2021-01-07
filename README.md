@@ -4,4 +4,7 @@
 - [Stephen Grinder AlgoCasts Github link](https://github.com/StephenGrider/AlgoCasts)
 
 
-## Testing $ jest folder/test.js --watch
+## $ jest folder/test.js --watch
+
+# Table of Contents
+- [01 - reverse string](excersizes/reversestring)

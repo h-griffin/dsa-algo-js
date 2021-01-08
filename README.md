@@ -7,4 +7,4 @@
 ### $ jest folder/test.js --watch
 
 ## Table of Contents
-- [01 - reverse string](excersizes/reversestring)
+- [01 - reverse string](exercises/reverse-string)

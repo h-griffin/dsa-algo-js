@@ -8,9 +8,18 @@
 //   vowels('Why?') --> 0
 
 function vowels(str) {
+    // check both but dont count upper and lower for same char
+    upper_vowels = ['A','E','I','O','U']
+    lower_vowels = ['a','e','i','o','u',]
     counter = 0;
-    str.split('');
-    
+    let string = str.split('');
+    for (let char in string){
+        if (char in upper_vowels){
+            counter += 1;
+        } else if (char in lower_vowels){
+            counter += 1;
+        }
+    }
         
     return counter;
 }

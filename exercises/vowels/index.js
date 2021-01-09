@@ -7,6 +7,12 @@
 //   vowels('Why do you ask?') --> 4
 //   vowels('Why?') --> 0
 
-function vowels(str) {}
+function vowels(str) {
+    counter = 0;
+    str.split('');
+    
+        
+    return counter;
+}
 
 module.exports = vowels;

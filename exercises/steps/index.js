@@ -17,6 +17,12 @@
 //       '### '
 //       '####'
 
+
+// BIG O - TIME COMPLEXITY
+//      - N^2 quadratic 
+//      nested loops
+
+
 function steps(n) {}
 
 module.exports = steps;

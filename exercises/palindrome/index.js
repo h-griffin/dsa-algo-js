@@ -7,6 +7,36 @@
 //   palindrome("abba") === true
 //   palindrome("abcdefg") === false
 
-function palindrome(str) {}
+// griffin try
+function palindrome(str) {
+    let pal = false;
+    reversed = ''
+    let string = str.split('');
+    for (let char in string){
+        reversed.concat(char);
+    }
+    // reversed.join('')
+    if (reversed == str){
+        pal = true;
+    }
+
+    return pal;
+}
+
+
+
+
+function palindrome(str) {
+    const reversed = str.split('').reverse().join('')
+
+    return str == reversed;
+}
+
+// EVERY FUNCTION
+function palindrome(str) {
+    return str.split('').every((char,i) => {
+        return char === str[str.length - i -1 ]; // find matching position end of string
+    })
+}
 
 module.exports = palindrome;

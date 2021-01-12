@@ -12,6 +12,8 @@
 //   anagrams('RAIL! SAFETY!', 'fairy tales') --> True
 //   anagrams('Hi there', 'Bye there') --> False
 
+// BIG O : 
+//     O(n+m) two seperate single for loops
 
 // CHAR MAP
 function anagrams(stringA, stringB) {
@@ -42,6 +44,19 @@ function build_char_map(str){
     }
 
     return charMap;
+}
+
+
+function anagrams(stringA, stringB) {
+    return clean_string(stringA) === clean_string(stringB);
+}
+
+function clean_string(str){
+    return str.replace(/[^\w]/g, '')
+        .toLowerCase()
+        .split('')
+        .sort()
+        .join('');
 }
 
 module.exports = anagrams;

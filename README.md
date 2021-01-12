@@ -31,20 +31,14 @@
 
 - [07 - anagrams](exercises/anagrams)
     - check len strings / keys for each char map
-    - 
+    - sort strings
 
-- **[15 - runtime complexity]**
-    - O(N) - **linear** 
-        - directly affected 1-1 by input (string reverse: +1 char = +1 loop)
-        - itterating through data (or half collection) - single for loop
-    - O(N^2) = **quadratic** 
-        - **nested loops** as n increases, n*n more things (steps: +1 step = +N loops)
-        - handshake problem 
-    - O(1) - constant time 
-        - 1step (print)
-    - log(n) - logarithmic 
-        - search operations
-    - n*log(n) - quasilinear
-        - sorting operations
-    - 2^n - exponential timme
-        - +1 thing x2 more space
+- [08 - capitalize](exercises/capitalize)
+    - split() by space capitalize word[0] first and join 
+    - for loop and look to left if space , then cap
+
+- [09 - steps](exercises/capitalize)
+    - column greater than row = space
+
+- [15 - runtime complexity](exercises/time-complexity)
+ 

@@ -40,5 +40,9 @@
 - [09 - steps](exercises/capitalize)
     - column greater than row = space
 
+- [10 - pyramid](exercises/pyramid)
+    - column greater than row = space
+
+
 - [15 - runtime complexity](exercises/time-complexity)
  

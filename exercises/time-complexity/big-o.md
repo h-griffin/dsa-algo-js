@@ -29,6 +29,12 @@
     - **two separate nested for loops** 
     - two different collections
 
+- RECURSIVE
+    - typically O(N) linear
+    - one for loop O(N^2) quadratic
+    - divide next call O(log(n)) logarithmic
+    - call twice O(2^n) exponential
+
 
 ### space complexity
-- typically same as time complexity 
+- typically same as time complexity, look into later 

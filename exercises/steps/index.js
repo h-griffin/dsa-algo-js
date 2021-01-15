@@ -50,21 +50,21 @@ function steps(n) {
 
 // RECURSION TIPS
 //
-// figure out bare minimum pieces of information to represent problem   # 1
-// give reasonable defaults to the bare minimum pieces of information   # 2
-// check the base case. is there any work left to do? if not return     # 3
-// do some work, call your function again,                              # 4
+// - figure out bare minimum pieces of information to represent problem   # 1
+// - give reasonable defaults to the bare minimum pieces of information   # 2
+// - check the base case. is there any work left to do? if not return     # 3
+// - do some work, call your function again,                              # 4
 //      making sure the arguments have changes in some fashion
 
-function steps(n, row = 0, stair = '') {
-    if (n === row){
+function steps(n, row = 0, stair = '') {    // # 2
+    if (n === row){                         // # 3
         return;
     }
-    if(n === stair.length){
+    if(n === stair.length){                 // # 1
         console.log(stair);
         return steps(n, row+1);
     }
-    if(stair.length <= row ){
+    if(stair.length <= row ){               // # 4
         stair += '#';
     }else {
         stair += ' ';

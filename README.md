@@ -42,7 +42,7 @@
 
 - [10 - pyramid](exercises/pyramid)
     - column greater than row = space
-
+    - find midpoint adn sub row / add row
 
 - [15 - runtime complexity](exercises/time-complexity)
  

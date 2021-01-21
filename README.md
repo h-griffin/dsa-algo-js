@@ -44,5 +44,7 @@
     - column greater than row = space
     - find midpoint adn sub row / add row
 
+- [11 - matrix spiral](exercises/matrix)
+
 - [15 - runtime complexity](exercises/time-complexity)
  
